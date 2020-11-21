@@ -976,6 +976,13 @@ INPUT C:\Users\joham\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\joham\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\joham\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\palatino\pplri9e.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT C:\Users\joham\AppData\Roaming\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
 INPUT c:\repositories\PTF\Latex Forensik\figures\mft.png
 INPUT c:\repositories\PTF\Latex Forensik\figures\mft.png
 INPUT c:\repositories\PTF\Latex Forensik\figures\mft.png
@@ -986,13 +993,6 @@ INPUT c:\repositories\PTF\Latex Forensik\figures\mft.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplr9e.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplb9e.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\palatino\pplri9e.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
-INPUT C:\Users\joham\AppData\Roaming\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\palatino\pplr9e.vf

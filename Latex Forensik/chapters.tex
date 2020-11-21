@@ -1,16 +1,46 @@
 \chapter{Management Summary}
 
+\section{Hintergrund}
 Beim  Reiseveranstalter „hVs-Reisen“, der auf Reisen nach Nordkorea spezialisiert ist, kam es am Nachmittag des 14.11.2017 zu einem Security Incident, nachdem der
 Virenscanner auf dem virtuellen Client des Mitarbeiters Lars Walter eine Malware
 erkannt hatte.
-Das Forensik Team wurde daraufhin beauftragt, das betroffene System einer forensischen Analyse zu unterziehen. Der vorliegende Bericht gliedert sich in eine sog. Management Summary, in welcher die wichtigsten Ergebnisse der Untersuchung in kompakter Form dargestellt sind. Im Anschluss daran folgt eine detaillierte Aufstellung der Vorgehensweise und Ergebnisse, in der speziell auf die Fragen des Kunden eingegangen wird. Abgeschlossen wird der Bericht mit Handlungsempfehlungen für den Kunden von Seiten des Forensik Teams.
+Das Forensik-Team wurde daraufhin beauftragt, das betroffene System einer forensischen Analyse zu unterziehen. Der vorliegende Bericht gliedert sich in eine sog. Management Summary, in welcher die wichtigsten Ergebnisse der Untersuchung in kompakter Form dargestellt sind. Im Anschluss daran folgt eine detaillierte Aufstellung der Vorgehensweise und Ergebnisse, in der speziell auf die Fragen des Kunden eingegangen wird. Abgeschlossen wird der Bericht mit Handlungsempfehlungen für den Kunden von Seiten des Forensik Teams.
+
+\section{Beschreibung des Security-Incidents}
+Die Analyse des Security-Incidents bestätigte den Verdacht, dass der Rechner des Mitarbeiters Lars Walter durch eine Malware kompromittiert wurde.
+Die Ursache der Infektion war eine Phishing-Mail, die der Mitarbeiter in seinem Google-Konto \path{hvsreisen.lwalter@gmail.com} erhalten hat.
+Die E-Mail mit dem Betreff \textit{North Korea Update - Statement of Rex W. Tillerson} wurde am 13.11.17 um 16:19 Uhr empfangen.
+Diese E-Mail enthielt einen Anhang mit der Zip-Datei
+\path{Temp1_171110_NorthKorea-DiploimaticUpdate.zip}.
+Diese Datei enthielt wiederum die Malware
+\path{171110_NorthKorea-DiploimaticUpdate.pdf.exe}.
+Diese wurde vom Benutzer am 13.11.17 um 16:27 Uhr ausgeführt, wodurch das System kompromittiert wurde.
+
+Es ist davon auszugehen, dass es sich um einen zielgerichteten Angriff auf die hVs-Reisen handelt, da die Phishing-Mail stark indivualisiert ist und auf das Geschäftsfeld des Unternehmens angepasst ist.
+Hinsichtlich des Angreifers wurde die IP-Adresse \path{210.122.17.27} ermittelt, die auf einen südkoreanischen Server verweist.
+Nähere Rückschlüsse auf die Identität des Angreifers konnten zum aktuellen Zeitpunkt nicht getroffen werden.
+
+Es konnten zudem weitere Aktivitäten des Angreifers ermittelt werden.
+Mit hoher Wahrscheinlichkeit versuchte der Angreifer, sich Zugang zum Netzwerk-Router zu verschaffen.
+Dies deutet darauf hin, dass der Angreifer sich über das Netzwerk Zugang zur gesamten IT-Infrastruktur des Unternehmens verschaffen wollte.
+Ob diese Versuche erfolgreich verliefen, konnte derzeit nicht mit Sicherheit ermittelt werden.
+Es ist daher dringend zu empfehlen, die Netzwerkgeräte des Unternehmens näher zu untersuchen.
+Es ist stark davon auszugehen, dass der Angreifer Zugang zu sensible Daten hatte und diese aus dem System extrahieren konnte.
+Welche Daten konkret abgeflossen sind, konnte zum jetzigen Zeipunkt nicht festgestellt werden.
+
+\section{Empfohlene Handlungsschritte}
+Der kompromittierte Rechner des Mitarbeiters sollte unbedingt vollständig zurückgesetzt werden, um jegliche Schadsoftware zuverlässig zu entfernen.
+Nur so kann sichergestellt werden, dass der Angreifer nicht mehr auf den Rechner zugreifen kann.
+Da nicht auszuschließen ist, dass der Angreifer Zugang zum Google-Mail-Account des Mitarbeiters erlangt hat, wird dringend empfohlen, das Passwort dieses Accounts zu ändern.
+Vorsorglich sollte eine Änderung der Google-Zugangsdaten auch für die weiteren Mitarbeiter durchgeführt werden.
+Auch die Zugangsdaten des Netzwerkrouters sollten geändert werden, um auszuschließen, dass sich der Angreifer weiterhin im System befindet.
+Um weitere Angriffe auf die hVs-Reisen abwehren zu können, sollten Schulungen zur Sensibilisierung der Mitarbeiter für IT-Sicherheit durchgeführt werden.
 
 \chapter{Analyse des Systems}
 
 \section{Vorbereitung}
 Zur Durchführung der forensischen Analyse wurden dem Team zwei Sicherungsdateien des betroffenen Clients des Mitarbeiters Lars Walter zur Verfügung gestellt. Dabei handelt es sich zum Einen um die Sicherung des Arbeitsspeichers \textit{client-walter.vmem} und zum Anderen um ein Image der Festplatte (client-walter.vmem). 
 Zu Beginn wurde die Integrität der Images überprüft. Dabei wurden vom Team die Hashwerte der beiden Dateien mit dem CertUtil Befehl ermittelt und mit den vom Kunden zur Verfügung gestellten Hashwerten verglichen.
-
 
 \begin{center}
 	\begin{tabular}{|c|c|c|c|c|} 
