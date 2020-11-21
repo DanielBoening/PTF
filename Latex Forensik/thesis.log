@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  21 NOV 2020 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  21 NOV 2020 14:25
 entering extended mode
 **"c:/repositories/PTF/Latex Forensik/thesis.tex"
 ("c:/repositories/PTF/Latex Forensik/thesis.tex"
@@ -1254,15 +1254,15 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17469 strings out of 479799
- 325488 string characters out of 2879558
+ 17465 strings out of 479799
+ 325457 string characters out of 2879558
  1004425 words of memory out of 3000000
  33797 multiletter control sequences out of 15000+200000
- 592577 words of font info for 251 fonts, out of 3000000 for 9000
+ 592354 words of font info for 248 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,20n,111p,10659b,669s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "c:/repositories\PTF\Latex Forensik\thesis.pdf" (17 pages, 881015 bytes).
+Output written on "c:/repositories\PTF\Latex Forensik\thesis.pdf" (17 pages, 881716 bytes).
 PDF statistics:
  264 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
