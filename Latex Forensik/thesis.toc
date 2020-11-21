@@ -1,16 +1,16 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Analyse des kompromittierten Systems}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Einleitung}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Analyse des Systems}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Vorbereitung}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}File Records in Master File Table (MFT)}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Prefetch-Files}{3}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Registry-Analyse}{3}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Wireshark Analyse}{5}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Prozessliste}{6}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Weitere Aktivität des Angreifers}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Möglicher Datendiebstahl}{9}{chapter.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{10}{chapter*.2}%
+\contentsline {section}{\numberline {2.6}Arbeitsspeicheranalyse}{6}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Art des Angriffs}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Weitere Aktivität des Angreifers}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Möglicher Datendiebstahl}{12}{chapter.5}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{13}{chapter*.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
