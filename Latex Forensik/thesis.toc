@@ -12,5 +12,5 @@
 \contentsline {chapter}{\numberline {3}Art des Angriffs}{8}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Weitere Aktivität des Angreifers}{10}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Möglicher Datendiebstahl}{12}{chapter.5}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{13}{chapter*.2}%
+\contentsline {chapter}{\numberline {6}Empfohlene nächste Schritte für hVs-Reisen}{13}{chapter.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

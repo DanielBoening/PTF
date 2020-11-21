@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  21 NOV 2020 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.21)  21 NOV 2020 13:13
 entering extended mode
 **"c:/repositories/PTF/Latex Forensik/thesis.tex"
 ("c:/repositories/PTF/Latex Forensik/thesis.tex"
@@ -609,7 +609,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip83
 )
-Package floatrow Info: Redefining fcapside on input line 60.
+Package floatrow Info: Redefining fcapside on input line 59.
  ("C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -625,22 +625,22 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) ("c:/repositories\PTF\Latex Forensik\thesis.aux" ("c:/repositories\PTF\Latex Forensik\title.aux") ("c:/repositories\PTF\Latex Forensik\toc.aux") ("c:/repositories\PTF\Latex Forensik\chapters.aux") ("c:/repositories\PTF\Latex Forensik\append.aux"))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 \c@lstlisting=\count297
  ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -659,22 +659,22 @@ LaTeX Font Info:    ... okay on input line 78.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \dots on input line 78.
-LaTeX Info: Redefining \microtypecontext on input line 78.
+LaTeX Info: Redefining \dots on input line 77.
+LaTeX Info: Redefining \microtypecontext on input line 77.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 78.
+LaTeX Info: Redefining \showhyphens on input line 77.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\joham\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 77.
  ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (C:\Users\joham\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
@@ -684,9 +684,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
  ("c:/repositories\PTF\Latex Forensik\thesis.out") ("c:/repositories\PTF\Latex Forensik\thesis.out")
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -698,7 +698,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 78.
+(scrbook)           before \begin{document} on input line 77.
  (C:\Users\joham\AppData\Roaming\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\joham\AppData\Roaming\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -800,11 +800,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 )
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <12> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 93.
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 92.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \include{toc}
+l.92 \include{toc}
                    [1
 
 
@@ -1196,57 +1196,76 @@ Overfull \hbox (5.69057pt too wide) in paragraph at lines 240--241
  [] 
  []
 
-) [12
+[12
 
 
  <c:/repositories/PTF/Latex Forensik/figures/wiresharkanalysis.png>]
-\openout2 = `append.aux'.
+chapter 6.
+<figures/history1.PNG, id=164, 739.76375pt x 117.43875pt>
+File: figures/history1.PNG Graphic file (type png)
+<use figures/history1.PNG>
+Package pdftex.def Info: figures/history1.PNG  used on input line 255.
+(pdftex.def)             Requested size: 449.55362pt x 71.36693pt.
 
- ("c:/repositories\PTF\Latex Forensik\append.tex") ("c:/repositories\PTF\Latex Forensik\thesis.bbl"
-chapter without number
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 256.
+See the caption package documentation for explanation.
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
+
+Overfull \hbox (5.69057pt too wide) in paragraph at lines 255--256
+ [] 
+ []
+
+<figures/history2.PNG, id=165, 766.865pt x 160.6pt>
+File: figures/history2.PNG Graphic file (type png)
+<use figures/history2.PNG>
+Package pdftex.def Info: figures/history2.PNG  used on input line 261.
+(pdftex.def)             Requested size: 449.55362pt x 94.14787pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 262.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (5.69057pt too wide) in paragraph at lines 261--262
+ [] 
+ []
 
 ) [13
 
 
+ <c:/repositories/PTF/Latex Forensik/figures/history1.PNG> <c:/repositories/PTF/Latex Forensik/figures/history2.PNG>] [14]
+\openout2 = `append.aux'.
 
-
-
-
-
-
-
-] ("c:/repositories\PTF\Latex Forensik\thesis.ind")
+ ("c:/repositories\PTF\Latex Forensik\append.tex") ("c:/repositories\PTF\Latex Forensik\thesis.ind")
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     121.
+(LaTeX3)     114.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     121.
+(LaTeX3)     114.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     121.
+(LaTeX3)     114.
 
  ("c:/repositories\PTF\Latex Forensik\thesis.aux" ("c:/repositories\PTF\Latex Forensik\title.aux") ("c:/repositories\PTF\Latex Forensik\toc.aux") ("c:/repositories\PTF\Latex Forensik\chapters.aux") ("c:/repositories\PTF\Latex Forensik\append.aux"))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17445 strings out of 479799
- 325286 string characters out of 2879558
- 1004512 words of memory out of 3000000
- 33788 multiletter control sequences out of 15000+200000
- 591908 words of font info for 242 fonts, out of 3000000 for 9000
+ 17450 strings out of 479799
+ 325325 string characters out of 2879558
+ 1004425 words of memory out of 3000000
+ 33794 multiletter control sequences out of 15000+200000
+ 591921 words of font info for 242 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,20n,111p,10659b,669s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "c:/repositories\PTF\Latex Forensik\thesis.pdf" (15 pages, 858564 bytes).
+Output written on "c:/repositories\PTF\Latex Forensik\thesis.pdf" (16 pages, 874725 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 41162 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 41172 words of extra memory for PDF output out of 42996 (max. 10000000)
 

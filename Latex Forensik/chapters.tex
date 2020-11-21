@@ -237,22 +237,38 @@ Diese konnte allerdings nicht im System des Mitarbeiters nachgewiesen werden.
 Die auf VirusTotal aufgeführten IP Adressen des Viruses wie in Abbildung \ref{fig:wiresharkanalysis} zu sehen, wurden in den Wireshark Dumps analysiert. Dabei wurde eine der Verbindungen auf die IP Addresse 210.122.17.27:80 gefunden. Es fiel auf, dass sehr viele Calls auf diese IP Adresse durchgeführt wurden. Dabei wurden auch Daten übertragen, da die Calls teilweise eine sehr hohe Größe hatten.
 
 \begin{center}
-	\includegraphics[width=15.8cm]{figures/wiresharkanalysis}
+	\includegraphics[width=15.8cm]{figures/wiresharkanalysis.png}
 	\captionof{figure}{Wireshark Analyse der Calls auf 210.122.17.27:80}
 	\label{fig:wiresharkanalysis}
 \end{center}
 
 In Abbildung \ref{fig:wiresharkanalysis} ist zu sehen, dass es insgesamt über 67000 Pakete mit Ziel oder Absenderadresse dieser IP Adresse hat und dass das größte Paket eine Länge von über 52000 Bytes hat. Dies deutet darauf hin, dass Daten hochgeladen wurden.
 
-Auf \textit{who is} konnte ermittelt werden, dass sie einem asiatischen Provider zuzuordnen ist, allerdings sind durch das hohe Alter, keine genaueren Angaben möglich. Es könnte mittlerweile neu vergeben worden sein oder dieser Server war auch betroffen und wurde nur als Mittelsmann genutzt.
+Per \textit{whois}-Abfrage konnte ermittelt werden, dass sie einem asiatischen Provider zuzuordnen ist, allerdings sind durch das hohe Alter, keine genaueren Angaben möglich. Es könnte mittlerweile neu vergeben worden sein oder dieser Server war auch betroffen und wurde nur als Mittelsmann genutzt.
 
+\chapter{Empfohlene nächste Schritte für hVs-Reisen}
 
-\begin{description}
-	\item[Aufzählung] bla bla
-\end{description}
+Dem betroffenen Mitarbeiter Lars Walter wird empfohlen, die Passwörter für sämtliche Accounts und Dienste zu ändern, bei denen er sich seit der Ausführung der Malware am 13.11.17 um 16:27 Uhr vom betroffenen Rechner aus eingeloggt hat.
+Dringend geändert werden sollte das Passwort für den Google E-Mail Account, da nachgewiesen werden konnte, dass sich der Mitarbeiter nach dem Malware-Befall noch mehrfach bei diesem Dienst angemeldet hatte (siehe Abbildungen \ref{fig:history1} und \ref{fig:history2})
 
-\begin{enumerate}
-	\item bla bla 
-\end{enumerate}
+\begin{center}
+	\includegraphics[width=15.8cm]{figures/history1.PNG}
+	\captionof{figure}{Browserhistory des Nutzers}
+	\label{fig:history1}
+\end{center}
 
+\begin{center}
+	\includegraphics[width=15.8cm]{figures/history2.PNG}
+	\captionof{figure}{Browserhistory des Nutzers}
+	\label{fig:history2}
+\end{center}
 
+Der kompromittierte Rechner sollte vollständig neu aufgesetzt werden, da nicht auszuschließen ist, dass neben der gefundenen Malware noch weitere Schadsoftware installiert wurde.
+Weiterhin sollte auch der Netzwerk-Router untersucht werden, um festzustellen, ob es dem Angreifer gelang, auf diesen Zugriff zu erlangen.
+Auch das Passwort des Netzwerk-Routers sollte von der IT-Administration geändert werden.
+Es empfiehlt sich, alle Passwörter der Mitarbeiter von hVs-Reisen zu ändern, da wir einen Zugriff auf weitere Accounts derzeit nicht ausschließen können.
+Zudem sollten alle E-Mail Accounts der Mitarbeiter auf Aktivierung der \textit{Less secure apps} untersucht werden.
+
+Zuletzt sollten alle Mitarbeiter für die IT-Sicherheit sensibilisiert werden, damit ein solcher Angriff auf hVs-Reisen in Zukunft vermieden werden kann.
+Es sollte vor allem darauf hingewiesen werden, dass nicht direkt auf die Links der erhalten E-Mails geklickt wird.
+Die Mitarbeiter sollen sich erst vergewissern, dass die E-Mail vertraulich ist.
